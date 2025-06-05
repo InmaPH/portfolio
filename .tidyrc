@@ -1,0 +1,5 @@
+drop-empty-elements: no
+show-warnings: no
+quiet: yes
+indent: yes
+wrap: 0
