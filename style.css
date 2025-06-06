@@ -31,7 +31,7 @@ body, html {
 body {
     overflow-x: hidden;
     font-family:"raleway";
-    color: #1B1B1B;
+    color: #000000;
     background: #bee4af;
     font-size: 14px;
 }
@@ -40,9 +40,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     text-transform: capitalize;
 }
-
+/* My Works Section */
 a {
-    color: #1B1B1B;
+    color: #000000;
     font-weight: 600;
 }
 a:hover {
@@ -71,7 +71,7 @@ a:hover {
 }
   
 .btn-primary:hover {
-    background: transparent;
+    background: solid;
     color: #05386b;
     cursor: pointer;
     border: 3px solid #05386b;
@@ -108,7 +108,7 @@ a:hover {
 }
 .title-left::after {
     content: '';
-    background: #05386b;
+    background: #000000;
     display: block;
     height: 3px;
     width: 30px;
@@ -119,27 +119,24 @@ a:hover {
 
 /*==== Navigation ====*/
 .navbar {
-    color: #05386b;
+    color: #000000;
     font-size: 12px;
     text-transform: uppercase;
     font-family: "raleway";
 }
 .navbar a {
-    color: #edf5e1!important;
+    color: #000000!important;
     font-weight: 600;
     border: 0;
     float: right;
 }
 
 
-.navbar.navbar-trans {
-    background: rgba(0, 0, 0, 0.01);
-}
 .navbar.navbar-solid {
-    background: #05386b;
+    background: #000000;
 }
 .navbar.navbar-solid  a{
-    color: #379683!important;
+    color: #F2F2F2!important;
 }
 
 a.navbar-brand img {
@@ -171,25 +168,6 @@ a.navbar-brand img {
     border-radius: 15%;
     transition: all ease-in 0.5s;
 }
-.navbar .nav-link::after,
-.navbar-trans .nav-link::after {
-    background: #379683;
-}
-.navbar-solid .nav-link::after {
-    background: #379683;
-}
-.navbar .nav-item .nav-link.active::after,
-.navbar-trans .nav-item .nav-link.active::after,
-.navbar-solid .nav-item .nav-link.active::after {
-    width: 45%;
-}
-.navbar .nav-item:hover .nav-link::after,
-.navbar-trans .nav-item:hover .nav-link::after,
-.navbar-solid .nav-item:hover .nav-link::after {
-    width: 45%;
-}
-
-
 /*--/ Hamburger Navbar /--*/
 
 .navbar-toggler {
@@ -267,9 +245,9 @@ a.navbar-brand img {
 
 /*==== Fulll Page Image Header ====*/
 .masthead {
-    background-image: linear-gradient(to right, #4db17af1 50%, #05386bf1 50%), url("lib/img/work-3.jpg");
+    background-image: linear-gradient(to right, #00000088 50%, #B6B09F88 50%), url("lib/img/data.jpg");
     height: 100vh;
-    min-height: 800px;
+    min-height: 1px;
     padding-top: 13rem;
     background-position: center;
     background-repeat: no-repeat;

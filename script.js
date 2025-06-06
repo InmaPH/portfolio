@@ -1,14 +1,5 @@
 jQuery(document).ready(function( $ ) {
-
-// Navigation Transparent to Solid
-$(window).scroll(function(){
-    if ($(window).scrollTop()>50){
-        $('nav').addClass('navbar-solid');
-    } else {
-        $('nav').removeClass('navbar-solid');
-        $('nav').addClass('navbar-trans');
-    }
-});
+    $('nav').addClass('navbar-solid');
 
 // Smooth Scrolling 
 $('.js-scroll').on('click',  function(event){
@@ -22,7 +13,6 @@ $('.js-scroll').on('click',  function(event){
         });
     } //end if
 });
-
 
 
 // Typed 
